@@ -507,7 +507,6 @@ body {
 .footerly-form-title {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--mien-title-color);
 }
 
@@ -534,10 +533,6 @@ body {
 }
 
 .footerly-form-input::placeholder {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 2.0;
-    letter-spacing: 0.04em;
     color: var(--mien-title-color);
 }
 
@@ -716,6 +711,7 @@ body {
     width: 24px;
     height: 24px;
     margin-left: auto;
+    margin-bottom: 24px;
     border-radius: 50%;
     background-color: var(--accent);
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -754,7 +750,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
-    margin-top: 24px;
     margin-bottom: 16px;
 }
 
@@ -834,19 +829,13 @@ body {
 }
 
 .modal-textarea ::placeholder {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
 }
 
 .modal-btn {
     display: block;
     cursor: pointer;
-    width: 169px;
+    min-width: 169px;
     padding: 16px 32px;
     margin: 0 auto;
     font-weight: 500;
@@ -875,8 +864,6 @@ body {
     align-items: center;
     justify-content: center;
     gap: 5px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
@@ -885,12 +872,7 @@ body {
 }
 
 .checkbox-text-link {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
     line-height: 1.33;
-    letter-spacing: 0.04em;
     text-decoration-line: underline;
     color: var(--primary-brand);
 }
